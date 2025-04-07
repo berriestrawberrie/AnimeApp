@@ -5,7 +5,7 @@ let library = [
     isWatched: true
     },
     {title: "Anime2",
-     origin: "Korean",
+     origin: "Korea",
      isWatched: true
     },
     {title: "Anime3",
@@ -107,10 +107,10 @@ function animeApp(){
                 break;
             case "4":
                 running = false;
-                //alert("Goodbye!");4
+                alert("Goodbye!");
                 break;
             default:
-                alert("Invalid choice.");
+                alert("Invalid choice. Please select a numerical option.");
         }//END OF SWITCH
     
     }//END OF WHILE RUNNING
